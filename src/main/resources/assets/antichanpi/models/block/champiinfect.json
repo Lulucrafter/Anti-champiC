@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "antichanpi:blocks/texture_champic",
+    "particle": "antichanpi:blocks/texture_champic"
+  }
+}

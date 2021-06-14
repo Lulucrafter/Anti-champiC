@@ -1,0 +1,39 @@
+{
+  "group": "antichanpi",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "2": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "3": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "4": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "5": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "6": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "7": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "8": {
+      "item": "antichanpi:anticeliummineral"
+    }
+  },
+  "result": {
+    "item": "antichanpi:anticelium_c_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "antichanpi",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_leaves"
+    },
+    "1": {
+      "item": "minecraft:grass_block"
+    },
+    "2": {
+      "item": "minecraft:oak_leaves"
+    },
+    "3": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    },
+    "5": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "6": {
+      "item": "minecraft:mycelium"
+    },
+    "7": {
+      "item": "minecraft:red_mushroom"
+    },
+    "8": {
+      "item": "minecraft:mycelium"
+    }
+  },
+  "result": {
+    "item": "antichanpi:poudre_c",
+    "count": 1
+  }
+}

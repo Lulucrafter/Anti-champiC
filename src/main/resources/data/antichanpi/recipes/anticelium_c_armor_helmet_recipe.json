@@ -1,0 +1,29 @@
+{
+  "group": "antichanpi",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "1": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "2": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "3": {
+      "item": "antichanpi:anticeliummineral"
+    },
+    "5": {
+      "item": "antichanpi:anticeliummineral"
+    }
+  },
+  "result": {
+    "item": "antichanpi:anticelium_c_armor_helmet",
+    "count": 1
+  }
+}

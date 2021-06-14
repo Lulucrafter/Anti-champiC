@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Red_Mushroom": "",
+        "Crimson_Slab": "",
+        "Brown_Mushroom": "",
+        "Monster_Spawner": "",
+        "Mycelium": "",
+        "Oak_Planks": ""
+      },
+      "name": "default"
+    }
+  }
+}

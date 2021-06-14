@@ -1,0 +1,763 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Anticelium",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium"
+    },
+    {
+      "name": "Anticeliummineral",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticeliummineral"
+    },
+    {
+      "name": "AnticeliumCArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AnticeliumCArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_armor_helmet_recipe"
+    },
+    {
+      "name": "AnticeliumCArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_armor_body_recipe"
+    },
+    {
+      "name": "AnticeliumCArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_armor_leggings_recipe"
+    },
+    {
+      "name": "AnticeliumCArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_armor_boots_recipe"
+    },
+    {
+      "name": "Watherinfectet",
+      "type": "fluid",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watherinfectet"
+    },
+    {
+      "name": "AnticeliumCPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_pickaxe"
+    },
+    {
+      "name": "AnticeliumCAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_axe"
+    },
+    {
+      "name": "AnticeliumCSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_sword"
+    },
+    {
+      "name": "AnticeliumCShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_shovel"
+    },
+    {
+      "name": "AnticeliumCHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_hoe"
+    },
+    {
+      "name": "AnticeliumCPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_pickaxe_recipe"
+    },
+    {
+      "name": "AnticeliumCAxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_axe_recipe"
+    },
+    {
+      "name": "AnticeliumCSwordRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_sword_recipe"
+    },
+    {
+      "name": "AnticeliumCShovelRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_shovel_recipe"
+    },
+    {
+      "name": "AnticeliumCHoeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_hoe_recipe"
+    },
+    {
+      "name": "WatherinfectetMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watherinfectet_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnticeliumAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_additional_generation_condition",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AnticeliumCArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anticelium_c_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mushroom",
+      "type": "biome",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroom"
+    },
+    {
+      "name": "Champi",
+      "type": "mob",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champi"
+    },
+    {
+      "name": "WhaterinfectEnTickActifDeLaPotion",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whaterinfect_en_tick_actif_de_la_potion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Whaterinfect",
+      "type": "potion",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whaterinfect"
+    },
+    {
+      "name": "WatherinfectetQuandUnBlocEstAjoute",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watherinfectet_quand_un_bloc_est_ajoute",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PoudreCLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poudre_c_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoudreC",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poudre_c"
+    },
+    {
+      "name": "Poudre",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poudre"
+    },
+    {
+      "name": "ChampiinfectQuandLeMobjoueurEntreEnCollisionAvecLaPlante",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiinfect_quand_le_mobjoueur_entre_en_collision_avec_la_plante",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Champiinfect",
+      "type": "plant",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiinfect"
+    },
+    {
+      "name": "ChampiinfectQuandLeJoueurCommenceADetruire",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiinfect_quand_le_joueur_commence_a_detruire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MushroomC",
+      "type": "biome",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroom_c"
+    },
+    {
+      "name": "Champic",
+      "type": "mob",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champic"
+    },
+    {
+      "name": "Champicomique",
+      "type": "mob",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champicomique"
+    },
+    {
+      "name": "Comic",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Champiterapi",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiterapi"
+    },
+    {
+      "name": "Somnifere",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "somnifere"
+    },
+    {
+      "name": "Champiterapie",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiterapie"
+    },
+    {
+      "name": "ChampiterapieLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiterapie_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChampiterapieQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiterapie_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChampicomiqueConditionDapparitionNaturelleDeLentite",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champicomique_condition_dapparition_naturelle_de_lentite",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "OuvrirGUIQuandUneCommandeEstExecutee",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ouvrir_gui_quand_une_commande_est_executee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OuvrirGUI",
+      "type": "command",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ouvrir_gui"
+    },
+    {
+      "name": "ChampiQuandLeJoueurFaitUnClicDroitSurLentite",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champi_quand_le_joueur_fait_un_clic_droit_sur_lentite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Champiterapie2",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiterapie_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChampiterapiQuandLeGUIEstFerme",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiterapi_quand_le_gui_est_ferme",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChampiterapieLorsDunClicDroitDansLair2",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "champiterapie_lors_dun_clic_droit_dans_lair_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sacdechampis",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sacdechampis"
+    },
+    {
+      "name": "Roger",
+      "type": "mob",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "roger"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.whaterinfect": "Splash Whaterinfect",
+      "block.antichanpi.anticelium": "Anticelium",
+      "item.antichanpi.somnifere": "Somnifere",
+      "item.antichanpi.champiterapie": "livre de champiterapie",
+      "item.antichanpi.champic_spawn_egg": "Champic Spawn Egg",
+      "item.minecraft.lingering_potion.effect.whaterinfect": "Lingering Whaterinfect",
+      "effect.whaterinfect": "Whaterinfect",
+      "item.antichanpi.anticelium_c_shovel": "AnticeliumC Shovel",
+      "biome.antichanpi.mushroom": "Mushroom",
+      "entity.antichanpi.roger": "roger",
+      "item.antichanpi.anticelium_c_armor_leggings": "Anticelium Leggings",
+      "item.antichanpi.poudre_c": "Poudre C",
+      "entity.antichanpi.champic": "Champic",
+      "fluid.watherinfectet": "Watherinfectet",
+      "item.antichanpi.anticelium_c_armor_boots": "Anticelium Boots",
+      "entity.antichanpi.champicomique": "Champi comique",
+      "item.minecraft.potion.effect.whaterinfect": "Whaterinfect",
+      "block.antichanpi.champiinfect": "Champiinfect",
+      "item.antichanpi.champicomique_spawn_egg": "Champi comique Spawn Egg",
+      "item.antichanpi.anticelium_c_axe": "AnticeliumC Axe",
+      "biome.antichanpi.mushroom_c": "Mushroom",
+      "item.antichanpi.anticelium_c_sword": "AnticeliumC Sword",
+      "item.antichanpi.anticelium_c_armor_chestplate": "Anticelium Chestplate",
+      "item.antichanpi.anticelium_c_armor_helmet": "Anticelium Helmet",
+      "item.antichanpi.roger_spawn_egg": "roger Spawn Egg",
+      "item.antichanpi.watherinfectet_bucket": "Watherinfectet Bucket",
+      "item.minecraft.tipped_arrow.effect.whaterinfect": "Arrow of Whaterinfect",
+      "item.antichanpi.anticelium_c_hoe": "AnticeliumC Hoe",
+      "item.antichanpi.sacdechampis": "panier à champi s",
+      "entity.antichanpi.champi": "Champi suspect",
+      "item.antichanpi.anticelium_c_pickaxe": "AnticeliumC Pickaxe",
+      "item.antichanpi.anticeliummineral": "AntiClium",
+      "item.antichanpi.champi_spawn_egg": "Champi suspect Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "antichanpi",
+    "modName": "antichanpi",
+    "version": "1.0.0",
+    "author": "simon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.antichanpi",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

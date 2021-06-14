@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "antichanpi:blocks/anticelium",
+    "up": "antichanpi:blocks/anticelium",
+    "north": "antichanpi:blocks/anticelium",
+    "east": "antichanpi:blocks/anticelium",
+    "south": "antichanpi:blocks/anticelium",
+    "west": "antichanpi:blocks/anticelium",
+    "particle": "antichanpi:blocks/anticelium"
+  }
+}

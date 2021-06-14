@@ -1,0 +1,22 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Whaterinfect",
+    "effectName": "Whaterinfect",
+    "icon": "totem.png",
+    "color": {
+      "value": -39322,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "WhaterinfectEnTickActifDeLaPotion"
+    }
+  }
+}
